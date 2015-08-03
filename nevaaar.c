@@ -26,7 +26,6 @@ struct Me {
 
 int main() {
 	struct You you;
-    // Declare values of you struct
 
     struct Me me;
     me.giveYouUp = &you.givenUp;
@@ -48,8 +47,8 @@ int main() {
         me.sayGoodbye = false;
         me.tellALie = false;
         me.hurtYou = false;
-
         }
+        
     return 0;
 }
 
